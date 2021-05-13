@@ -1,6 +1,8 @@
+// main.c
 #include "vgastr.h"
 
-void main() {
+void main()
+{
     printf("Hello OS!");
     return;
 }
