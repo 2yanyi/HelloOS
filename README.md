@@ -3,14 +3,14 @@
 
 <br>
 
-```
+```sh
 .
-├── entry.asm
-├── vgastr.h
-├── vgastr.c
-├── main.c
-├── hello.lds
-└── Makefile
+├── entry.asm   # 为C程序构建运行环境
+├── vgastr.h    # 驱动显卡输出字符头文件
+├── vgastr.c    # 驱动显卡输出字符
+├── main.c      # 主程序
+├── hello.lds   # 链接配置
+└── Makefile    # 编译构建工具
 ```
 
 <br>
@@ -36,7 +36,7 @@
 # 将 GRUB_TIMEOUT 设置为 30秒的等待
 # 将 GRUB_CMDLINE_LINUX_DEFAUL 设置为 text
 
-GRUB_TIMEOUT=100
+GRUB_TIMEOUT=30
 GRUB_CMDLINE_LINUX_DEFAULT="text"
 
 # 并更新 GRUB 配置
