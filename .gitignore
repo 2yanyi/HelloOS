@@ -1,0 +1,6 @@
+entry.o
+vgastr.o
+main.o
+HelloOS.map
+HelloOS.elf
+HelloOS.bin
